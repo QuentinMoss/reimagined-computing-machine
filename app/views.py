@@ -20,4 +20,5 @@ def index():
     ]
     return render_template('index.html',
                             title='Home',
-                            user=user)
+                            user=user,
+                            posts=posts)
